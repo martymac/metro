@@ -1,0 +1,5 @@
+#!/bin/sh
+export PERL_BIN="/usr/bin/perl"
+export METRO_HOME=`pwd`
+export METRO_BIN="metro.pl"
+$PERL_BIN $METRO_HOME/$METRO_BIN "$@"
