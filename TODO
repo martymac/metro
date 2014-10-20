@@ -1,7 +1,0 @@
-Option -l :
-  - ajouter les lignes associées au nom de la station
-Nouvelles options :
-  -i pour forcer le passage par une station
-  -I pour forcer le passage par une ligne
-  -x pour exclure le passage par une station
-  -X pour exclure le passage par une ligne

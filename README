@@ -1,0 +1,27 @@
+Description :
+*************
+
+Metro is a tool that computes possible paths between two stations. It is
+written in Perl and available under the BSD license.
+
+Metro needs a file describing each available line and station. A file containing
+lines of the french "metro" is provided as an example : paris-metro.db.
+
+Using Metro :
+*************
+
+To use Metro, just specify a start and a stop station, as well as a DB file :
+
+$ metro -s Nation -t Pasteur paris-metro.db
+
+Lookup, filter and display options are available as well, see :
+
+$ metro --help
+
+for more details.
+
+Author / Availability :
+***********************
+
+Metro has been written by Ganael LAPLANCHE (ganael.laplanche@martymac.org) and
+is available on http://contribs.martymac.org
